@@ -10,8 +10,20 @@
   </head>
   <body>
     <img width="100%" src="https://pbs.twimg.com/profile_banners/3741694576/1442975186/1500x500">
-  <div id="getting-started"></div>
+  <div id="sandyCountdown">
+				<canvas id="sandyCanvas" class="sandyWatch" width="300" height="300"></canvas>
+				<div id="sandyCounter" class="sandyCounter">
+					<span class="SCDateComponent SCDateComponent--hours"></span>:<span class="SCDateComponent SCDateComponent--minutes"></span>:<span class="SCDateComponent SCDateComponent--seconds"></span>
+
+					<span class="subCounter">
+						<span class="SCDateComponent SCDateComponent--months"></span> MONTHS, <span class="SCDateComponent SCDateComponent--weeks"></span> WEEKS, <span class="SCDateComponent SCDateComponent--days"></span> DAYS
+					</span>
+				</div>
+			</div>
   <h1>Take Control Of The Game</h1>
   <p>Beginning October 1st 2015, we are asking that all Clashers move their TH outside of their walls for 5-days.  The goal here is</p>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/main.js"></script>
   </body>
 </html>

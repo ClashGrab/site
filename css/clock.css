@@ -1,0 +1,1022 @@
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello.eot?84875130");
+  src: url("../fonts/fontello.eot?84875130#iefix") format("embedded-opentype"), url("../fonts/fontello.woff?84875130") format("woff"), url("../fonts/fontello.svg?84875130#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?84875130#fontello') format('svg');
+  }
+}
+*/
+/* line 22, ../sass/_fontello.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+/* line 53, ../sass/_fontello.scss */
+.icon-gplus:before {
+  content: '\e805';
+}
+
+/* 'î …' */
+/* line 54, ../sass/_fontello.scss */
+.icon-linkedin:before {
+  content: '\e801';
+}
+
+/* 'î ' */
+/* line 55, ../sass/_fontello.scss */
+.icon-rss:before {
+  content: '\e804';
+}
+
+/* 'î „' */
+/* line 56, ../sass/_fontello.scss */
+.icon-twitter:before {
+  content: '\e800';
+}
+
+/* 'î €' */
+/* line 57, ../sass/_fontello.scss */
+.icon-youtube:before {
+  content: '\e803';
+}
+
+/* 'î ƒ' */
+/* line 58, ../sass/_fontello.scss */
+.icon-vimeo:before {
+  content: '\e802';
+}
+
+/* 'î ‚' */
+/* line 59, ../sass/_fontello.scss */
+.icon-facebook:before {
+  content: '\e806';
+}
+
+/* 'î †' */
+/* line 60, ../sass/_fontello.scss */
+.icon-tumblr:before {
+  content: '\e807';
+}
+
+/* 'î ‡' */
+@-webkit-keyframes rotate1 {
+  /* line 5, ../sass/animations/_rotation.scss */
+  0% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /* line 8, ../sass/animations/_rotation.scss */
+  100% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+}
+
+@-webkit-keyframes rotate2 {
+  /* line 16, ../sass/animations/_rotation.scss */
+  0% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  /* line 19, ../sass/animations/_rotation.scss */
+  100% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@-moz-keyframes rotate1 {
+  /* line 26, ../sass/animations/_rotation.scss */
+  0% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /* line 29, ../sass/animations/_rotation.scss */
+  100% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+}
+
+@-moz-keyframes rotate2 {
+  /* line 37, ../sass/animations/_rotation.scss */
+  0% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  /* line 40, ../sass/animations/_rotation.scss */
+  100% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@keyframes rotate1 {
+  /* line 47, ../sass/animations/_rotation.scss */
+  0% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /* line 50, ../sass/animations/_rotation.scss */
+  100% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+}
+
+@keyframes rotate2 {
+  /* line 58, ../sass/animations/_rotation.scss */
+  0% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  /* line 61, ../sass/animations/_rotation.scss */
+  100% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@-moz-keyframes spin {
+  /* line 2, ../sass/animations/_spin.scss */
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 3, ../sass/animations/_spin.scss */
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 6, ../sass/animations/_spin.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 7, ../sass/animations/_spin.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  /* line 10, ../sass/animations/_spin.scss */
+  from {
+    transform: rotate(0deg);
+  }
+
+  /* line 11, ../sass/animations/_spin.scss */
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 12, ../sass/screen.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 19, ../sass/screen.scss */
+body {
+  display: table;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  text-align: center;
+  font-family: "helvetica neue", "Century Gothic", sans-serif;
+}
+
+/* line 37, ../sass/screen.scss */
+h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+/* line 42, ../sass/screen.scss */
+#slider {
+  margin: 0;
+  padding: 0;
+}
+/* line 46, ../sass/screen.scss */
+#slider li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  z-index: -2;
+}
+/* line 57, ../sass/screen.scss */
+#slider li img {
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 72, ../sass/screen.scss */
+#container {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 76, ../sass/screen.scss */
+#container #cercleContainer {
+  position: relative;
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  -webkit-transition: width 0.3s ease-in, height 0.3s ease-in;
+  -moz-transition: width 0.3s ease-in, height 0.3s ease-in;
+  -o-transition: width 0.3s ease-in, height 0.3s ease-in;
+  transition: width 0.3s ease-in, height 0.3s ease-in;
+}
+/* line 87, ../sass/screen.scss */
+#container #cercleContainer:hover #cercle {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+}
+/* line 92, ../sass/screen.scss */
+#container #cercleContainer.aboutUsButtonClicked #cercleContent {
+  visibility: hidden;
+}
+/* line 93, ../sass/screen.scss */
+#container #cercleContainer.aboutUsButtonClicked #aboutUs {
+  visibility: visible;
+}
+/* line 96, ../sass/screen.scss */
+#container #cercleContainer.animateCercle {
+  -webkit-animation: rotate1 0.3s ease;
+  -moz-animation: rotate1 0.3s ease;
+  -o-animation: rotate1 0.3s ease;
+  animation: rotate1 0.3s ease;
+  -webkit-animation: rotate2 0.3s ease;
+  -moz-animation: rotate2 0.3s ease;
+  -o-animation: rotate2 0.3s ease;
+  animation: rotate2 0.3s ease;
+}
+/* line 108, ../sass/screen.scss */
+#container #cercleContainer #cercle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  background-color: #fff;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  -webkit-transition: opacity 0.8s ease-out;
+  -moz-transition: opacity 0.8s ease-out;
+  -o-transition: opacity 0.8s ease-out;
+  transition: opacity 0.8s ease-out;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+}
+/* line 127, ../sass/screen.scss */
+#container #cercleContainer #cercleContent {
+  padding-top: 90px;
+  visibility: visible;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+  -webkit-transition: padding 0.3s ease-in;
+  -moz-transition: padding 0.3s ease-in;
+  -o-transition: padding 0.3s ease-in;
+  transition: padding 0.3s ease-in;
+}
+/* line 136, ../sass/screen.scss */
+#container #cercleContainer #cercleContent .sandyWatch {
+  width: 220px;
+  -webkit-transition: width 0.3s ease-in, height 0.3s ease-in;
+  -moz-transition: width 0.3s ease-in, height 0.3s ease-in;
+  -o-transition: width 0.3s ease-in, height 0.3s ease-in;
+  transition: width 0.3s ease-in, height 0.3s ease-in;
+}
+/* line 142, ../sass/screen.scss */
+#container #cercleContainer #cercleContent .sandyCounter {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  -webkit-transition: font-size 0.3s ease-in;
+  -moz-transition: font-size 0.3s ease-in;
+  -o-transition: font-size 0.3s ease-in;
+  transition: font-size 0.3s ease-in;
+}
+/* line 151, ../sass/screen.scss */
+#container #cercleContainer #cercleContent .sandyCounter .SCDateCompnent--hours,
+#container #cercleContainer #cercleContent .sandyCounter .SCDateCompnent--minutes,
+#container #cercleContainer #cercleContent .sandyCounter .SCDateCompnent--seconds {
+  display: inline-block;
+}
+/* line 155, ../sass/screen.scss */
+#container #cercleContainer #cercleContent .sandyCounter .subCounter {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 166, ../sass/screen.scss */
+#container #cercleContainer #aboutUs {
+  visibility: hidden;
+  position: absolute;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* line 175, ../sass/screen.scss */
+#container #cercleContainer #aboutUs p {
+  margin: 0 auto;
+  width: 300px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* line 187, ../sass/screen.scss */
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+/* line 196, ../sass/screen.scss */
+#footer #sliderButtons {
+  margin-top: 13px;
+  padding: 0;
+  float: left;
+}
+/* line 201, ../sass/screen.scss */
+#footer #sliderButtons li {
+  margin: 0 10px 0 10px;
+  float: left;
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #fff;
+  list-style: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+}
+/* line 219, ../sass/screen.scss */
+#footer #sliderButtons li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  background-color: #000;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 227, ../sass/screen.scss */
+#footer #emailContainer {
+  position: relative;
+  margin-left: 20px;
+  float: left;
+  width: 220px;
+  height: 34px;
+}
+/* line 235, ../sass/screen.scss */
+#footer #emailContainer:hover #note, #footer #emailContainer .emailFocus {
+  top: -45px !important;
+  opacity: 0.7 !important;
+  z-index: 0 !important;
+}
+/* line 241, ../sass/screen.scss */
+#footer #emailContainer #note {
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  margin: 0 25px;
+  padding: 2px 10px 2px 10px;
+  height: 30px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 30px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  z-index: -1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  -webkit-transition: top 0.2s, opacity 0.3s ease-in;
+  -moz-transition: top 0.2s, opacity 0.3s ease-in;
+  -o-transition: top 0.2s, opacity 0.3s ease-in;
+  transition: top 0.2s, opacity 0.3s ease-in;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+}
+/* line 268, ../sass/screen.scss */
+#footer #emailContainer #note:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 34px;
+  left: 42%;
+  width: 0pc;
+  height: 0px;
+  border-top: 7px solid #fff;
+  border-left: 7px solid rgba(0, 0, 0, 0);
+  border-right: 7px solid rgba(0, 0, 0, 0);
+}
+/* line 284, ../sass/screen.scss */
+#footer #emailContainer #note.error {
+  color: red;
+}
+/* line 288, ../sass/screen.scss */
+#footer #emailContainer #email {
+  padding: 2px 30px 2px 10px;
+  width: 180px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+}
+/* line 305, ../sass/screen.scss */
+#footer #emailContainer #email:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 308, ../sass/screen.scss */
+#footer #emailContainer #email:focus {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 314, ../sass/screen.scss */
+#footer #emailContainer #emailButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 34px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+  text-shadow: -1px 0px 3px rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+}
+/* line 332, ../sass/screen.scss */
+#footer #emailContainer #emailButton:before {
+  color: #fff;
+  content: ">";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 338, ../sass/screen.scss */
+#footer #emailContainer #emailButton:hover {
+  cursor: pointer;
+}
+/* line 341, ../sass/screen.scss */
+#footer #emailContainer #emailButton:hover:before {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 346, ../sass/screen.scss */
+#footer #emailContainer #emailButton.loading {
+  background: url("../images/loading.png") no-repeat center;
+  -webkit-animation: spin 1000ms infinite ease-out;
+  -moz-animation: spin 1000ms infinite ease-out;
+  -o-animation: spin 1000ms infinite ease-out;
+  animation: spin 1000ms infinite ease-out;
+}
+/* line 353, ../sass/screen.scss */
+#footer #emailContainer #emailButton.loading:before {
+  content: "";
+}
+/* line 361, ../sass/screen.scss */
+#footer #socialButtons {
+  margin: 0 0 0 4px;
+  padding: 0;
+  float: left;
+}
+/* line 366, ../sass/screen.scss */
+#footer #socialButtons li {
+  position: relative;
+  margin-right: 4px;
+  padding-right: 1px;
+  float: left;
+  width: 33px;
+  height: 34px;
+  list-style: none;
+  background-color: #000;
+  color: #fff;
+  font-family: 'fontello';
+  font-size: 12px;
+  line-height: 34px;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+/* line 388, ../sass/screen.scss */
+#footer #socialButtons li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 393, ../sass/screen.scss */
+#footer #socialButtons li:nth-child(1):hover {
+  background-color: #00abf0;
+}
+/* line 399, ../sass/screen.scss */
+#footer #socialButtons li:nth-child(2):hover {
+  background-color: #3b5998;
+}
+/* line 404, ../sass/screen.scss */
+#footer #socialButtons li a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 414, ../sass/screen.scss */
+#footer #socialButtons #aboutUsButton:hover {
+  background-color: #ff3333;
+}
+/* line 419, ../sass/screen.scss */
+#footer #socialButtons .aboutUsButtonClicked {
+  background-color: #ee2222 !important;
+}
+
+/* line 427, ../sass/screen.scss */
+#logo {
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+  height: 48px;
+  width: 225px;
+  background-image: url("../images/logo.png");
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  behavior: url(../scripts/PIE.htc);
+  /* IE */
+}
+/* line 446, ../sass/screen.scss */
+#logo:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+@media only screen and (max-height: 650px), screen and (max-width: 560px) {
+  /* line 454, ../sass/screen.scss */
+  #container #cercleContainer {
+    width: 350px;
+    height: 350px;
+  }
+  /* line 458, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent {
+    padding-top: 65px;
+  }
+  /* line 461, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyWatch {
+    width: 170px;
+  }
+  /* line 465, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyCounter {
+    font-size: 40px;
+  }
+
+  /* line 472, ../sass/screen.scss */
+  #footer {
+    height: 45px;
+  }
+  /* line 474, ../sass/screen.scss */
+  #footer #emailContainre {
+    margin-left: 5px;
+    width: 180px;
+    height: 28px;
+  }
+  /* line 479, ../sass/screen.scss */
+  #footer #emailContainre #email {
+    width: 150px;
+    height: 24px;
+  }
+  /* line 483, ../sass/screen.scss */
+  #footer #emailContainre #emailButton {
+    line-height: 28px;
+  }
+  /* line 487, ../sass/screen.scss */
+  #footer #sliderButtons {
+    margin-top: 11px;
+  }
+  /* line 489, ../sass/screen.scss */
+  #footer #sliderButtons li {
+    margin: 0 7px;
+    width: 7px;
+    height: 7px;
+  }
+
+  /* line 496, ../sass/screen.scss */
+  #logo {
+    bottom: 10px;
+    height: 35px;
+  }
+}
+/* Smartphones (portraint & landscape) */
+@media only screen and (max-width: 640px) {
+  /* line 505, ../sass/screen.scss */
+  #footer {
+    height: 35px;
+  }
+  /* line 507, ../sass/screen.scss */
+  #footer #emailContainer {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    height: 30px;
+  }
+  /* line 514, ../sass/screen.scss */
+  #footer #emailContainer #note {
+    height: 26px;
+    line-height: 26px;
+  }
+  /* line 517, ../sass/screen.scss */
+  #footer #emailContainer #note:after {
+    top: 30px;
+  }
+  /* line 521, ../sass/screen.scss */
+  #footer #emailContainer #email {
+    padding: 2px 20px 2px 5px;
+    height: 26px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+  }
+  /* line 526, ../sass/screen.scss */
+  #footer #emailContainer #emailButton {
+    bottom: 0px;
+    top: auto;
+    width: 20px;
+    height: 30px;
+    line-height: 28px;
+  }
+  /* line 535, ../sass/screen.scss */
+  #footer #sliderButtons {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 540, ../sass/screen.scss */
+  #footer #sliderButtons li {
+    display: inline-block;
+    float: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    border-radius: 30%;
+  }
+
+  /* line 549, ../sass/screen.scss */
+  #logo {
+    top: 10px;
+    bottom: auto;
+    left: 10px;
+    right: auto;
+    height: 25px;
+  }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+  /* line 561, ../sass/screen.scss */
+  h1 {
+    font-size: 20px;
+  }
+
+  /* line 567, ../sass/screen.scss */
+  #container #cercleContainer {
+    margin-top: -30px;
+    width: 200px;
+    height: 200px;
+  }
+  /* line 572, ../sass/screen.scss */
+  #container #cercleContainer #aboutUs {
+    padding-top: 20px;
+  }
+  /* line 574, ../sass/screen.scss */
+  #container #cercleContainer #aboutUs p {
+    width: 150px;
+    font-size: 10px;
+  }
+  /* line 584, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent {
+    padding-top: 30px;
+  }
+  /* line 586, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyWatch {
+    width: 100px;
+  }
+  /* line 589, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyCounter {
+    font-size: 26px;
+  }
+  /* line 591, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyCounter .subCounter {
+    font-size: 7px;
+    line-height: 6px;
+  }
+
+  /* line 600, ../sass/screen.scss */
+  #footer #emailContainer {
+    width: 145px;
+    height: 24px;
+  }
+  /* line 603, ../sass/screen.scss */
+  #footer #emailContainer #note {
+    margin: 0 20px;
+    width: 110px;
+  }
+  /* line 607, ../sass/screen.scss */
+  #footer #emailContainer #email {
+    width: 120px;
+    height: 20px;
+    font-size: 12px;
+  }
+  /* line 614, ../sass/screen.scss */
+  #footer #emailContainer #emailButton {
+    height: 24px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  /* line 622, ../sass/screen.scss */
+  #footer #sliderButtons {
+    bottom: 30px;
+  }
+  /* line 626, ../sass/screen.scss */
+  #footer #socialButtons {
+    display: inline-block;
+    float: none;
+    margin: 0;
+  }
+  /* line 631, ../sass/screen.scss */
+  #footer #socialButtons li {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    width: 23px;
+    height: 24px;
+    font-size: 9px;
+    line-height: 26px;
+  }
+  /* line 641, ../sass/screen.scss */
+  #footer #socialButtons #aboutUsButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: transparent;
+    font-size: 14px;
+    text-shadow: 0 1px 1px black;
+  }
+
+  /* line 654, ../sass/screen.scss */
+  #logo {
+    top: 10px;
+    bottom: auto;
+    left: 10px;
+    right: auto;
+    height: 25px;
+  }
+}
+/* Smartphones landscape ------------ */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+  /* line 666, ../sass/screen.scss */
+  h1 {
+    margin-bottom: 2px;
+    font-size: 17px;
+  }
+
+  /* line 674, ../sass/screen.scss */
+  #container #cercleContainer {
+    margin-top: -30px;
+    width: 140px;
+    height: 140px;
+  }
+  /* line 678, ../sass/screen.scss */
+  #container #cercleContainer #aboutUs {
+    padding-top: 10px;
+  }
+  /* line 680, ../sass/screen.scss */
+  #container #cercleContainer #aboutUs p {
+    width: 100px;
+    font-size: 8px;
+  }
+  /* line 689, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent {
+    padding-top: 20px;
+  }
+  /* line 691, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyWatch {
+    width: 70px;
+  }
+  /* line 694, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyCounter {
+    font-size: 18px;
+  }
+  /* line 696, ../sass/screen.scss */
+  #container #cercleContainer #cercleContent .sandyCounter .subCounter {
+    font-size: 5px;
+    line-height: 6px;
+  }
+
+  /* line 705, ../sass/screen.scss */
+  #footer #emailContainer {
+    width: 140px;
+  }
+  /* line 707, ../sass/screen.scss */
+  #footer #emailContainer:hover #note, #footer #emailContainer .emailFocus {
+    top: -35px !important;
+  }
+  /* line 710, ../sass/screen.scss */
+  #footer #emailContainer #note {
+    margin: 0 10px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+  }
+  /* line 718, ../sass/screen.scss */
+  #footer #emailContainer #note:after {
+    top: 24px;
+  }
+  /* line 722, ../sass/screen.scss */
+  #footer #emailContainer #email {
+    width: 115px;
+    font-size: 12px;
+  }
+  /* line 729, ../sass/screen.scss */
+  #footer #sliderButtons {
+    bottom: 20px;
+  }
+  /* line 731, ../sass/screen.scss */
+  #footer #sliderButtons li {
+    margin: 5px;
+    padding: 0;
+    width: 6px;
+    height: 6px;
+  }
+  /* line 739, ../sass/screen.scss */
+  #footer #socialButtons {
+    position: absolute;
+    left: 2px;
+    top: 0;
+  }
+  /* line 744, ../sass/screen.scss */
+  #footer #socialButtons li {
+    width: 29px;
+    height: 28px;
+    font-size: 10px;
+    line-height: 28px;
+  }
+}
+@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  /* line 758, ../sass/screen.scss */
+  #logo {
+    background-image: url("../images/logo@2x.png");
+  }
+}
